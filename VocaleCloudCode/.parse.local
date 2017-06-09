@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Vocale": {
+      "applicationId": "mHwgC5UeSRQruIM5Yy0lvDyjqGS2Dj4NjO31JzBE"
+    },
+    "_default": {
+      "link": "Vocale"
+    }
+  }
+}

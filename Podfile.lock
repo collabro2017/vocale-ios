@@ -1,0 +1,166 @@
+PODS:
+  - AFNetworking (2.3.1):
+    - AFNetworking/NSURLConnection (= 2.3.1)
+    - AFNetworking/NSURLSession (= 2.3.1)
+    - AFNetworking/Reachability (= 2.3.1)
+    - AFNetworking/Security (= 2.3.1)
+    - AFNetworking/Serialization (= 2.3.1)
+    - AFNetworking/UIKit (= 2.3.1)
+  - AFNetworking/NSURLConnection (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.1)
+  - AFNetworking/Security (2.3.1)
+  - AFNetworking/Serialization (2.3.1)
+  - AFNetworking/UIKit (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Atlas (1.0.15):
+    - LayerKit (>= 0.17.1)
+  - BEMCheckBox (1.2.0)
+  - Bolts (1.5.0):
+    - Bolts/AppLinks (= 1.5.0)
+    - Bolts/Tasks (= 1.5.0)
+  - Bolts/AppLinks (1.5.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.5.0)
+  - CWStatusBarNotification (2.3.3)
+  - DateTools (1.7.0)
+  - DGActivityIndicatorView (2.0)
+  - DLRadioButton (1.4.4)
+  - DZNEmptyDataSet (1.7.3)
+  - DZNPhotoPickerController (1.5):
+    - AFNetworking (~> 2.3.1)
+    - DZNEmptyDataSet
+    - DZNPhotoPickerController/UIImagePickerControllerExtended (= 1.5)
+    - SDWebImage (~> 3.7)
+  - DZNPhotoPickerController/UIImagePickerControllerExtended (1.5):
+    - AFNetworking (~> 2.3.1)
+    - DZNEmptyDataSet
+    - SDWebImage (~> 3.7)
+  - EECircularMusicPlayerControl (0.2.1)
+  - Facebook-iOS-SDK (3.24.1):
+    - Bolts (~> 1.2)
+  - FacebookImagePicker (2.0.8):
+    - FBSDKCoreKit (~> 4.8.0)
+    - FBSDKLoginKit (~> 4.8.0)
+    - SDWebImage (~> 3.7.2)
+  - FBSDKCoreKit (4.8.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.8.0)
+    - FBSDKCoreKit/no-arc (= 4.8.0)
+  - FBSDKCoreKit/arc (4.8.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.8.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.8.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.8.0):
+    - FBSDKCoreKit
+  - FlickrKit (1.0.7)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - JTSImageViewController (1.5.1)
+  - JWGCircleCounter (0.2.2)
+  - LayerKit (0.17.5)
+  - NSDate+TimeAgo (1.0.3)
+  - Parse (1.11.0):
+    - Bolts/Tasks (~> 1.5)
+  - ParseFacebookUtils (1.9.1):
+    - Bolts/Tasks (~> 1.5)
+    - Facebook-iOS-SDK (~> 3.24)
+    - Parse (~> 1.9)
+  - ParseUI (1.1.7):
+    - Bolts/Tasks (~> 1.3)
+    - Parse (~> 1.9)
+  - PARTagPicker (1.0.4)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SVProgressHUD (1.1.3)
+  - UIImage-Helpers (0.0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Atlas
+  - BEMCheckBox
+  - CWStatusBarNotification (~> 2.3.3)
+  - DateTools
+  - DGActivityIndicatorView
+  - DLRadioButton
+  - DZNPhotoPickerController
+  - EECircularMusicPlayerControl
+  - FacebookImagePicker
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - FlickrKit
+  - FontAwesomeKit
+  - JSQMessagesViewController
+  - JTSImageViewController
+  - JWGCircleCounter
+  - NSDate+TimeAgo
+  - Parse
+  - ParseFacebookUtils
+  - ParseUI
+  - PARTagPicker
+  - SDWebImage (~> 3.7)
+  - SVProgressHUD
+  - UIImage-Helpers
+
+SPEC CHECKSUMS:
+  AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
+  Atlas: bd66c5b17719857a6b9e22299f76527245e06e88
+  BEMCheckBox: fcfbbf42cf23d38fbb605c72f63db9ae82d6acd3
+  Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
+  CWStatusBarNotification: 2349142e97c9f16fb8247ed3c00308cd355d334b
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  DGActivityIndicatorView: 52875b025a6ccf6a431a905285c12e2bb95eb559
+  DLRadioButton: 8c78ceb9e3d076a58a445f5ec505361796856539
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  DZNPhotoPickerController: ef61d459db0a8f2709303a47d3e48c8a1635c1af
+  EECircularMusicPlayerControl: dd1e357238d0e08fe7ffeb7c0d1941ac93def649
+  Facebook-iOS-SDK: 08689c2690dc4e087b9c8e171e48667608b72a2a
+  FacebookImagePicker: 888e7554898bea596e88556a935835c6141d8aed
+  FBSDKCoreKit: 66a935d17b6e00b6b64e604f2eb9b72c9ab7deb8
+  FBSDKLoginKit: d893fcbb98d854496925e9ff73c67b896982d3c4
+  FBSDKShareKit: e7577ee3adf80fc04fb656dd133fbb522250672b
+  FlickrKit: 907da468d679233a27d66dd88c6dcd024074b0f0
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  JWGCircleCounter: 89e25c3d5e9eb41cf666a795427712bb5e52a1a1
+  LayerKit: e9445015ef5f30a9777ba245aa48bd723ee8c697
+  NSDate+TimeAgo: 416f55d2696d3744c313091c5a9280d47f8238fe
+  Parse: 886af46a0a677402f6374bb97ac212e795f70afe
+  ParseFacebookUtils: 14016713d460f605e8b4834cd616f19339d7e9c0
+  ParseUI: c2bcdfbb00330e464b5b773266ae221697a3bb7b
+  PARTagPicker: 5b153bbea36778a252542ed8b84406dff1da29df
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  UIImage-Helpers: 06b04a42bdd222844035602e87e936765c80f620
+
+COCOAPODS: 0.39.0
